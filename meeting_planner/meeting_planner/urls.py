@@ -23,5 +23,5 @@ urlpatterns = [
     path('', welcome, name='welcome'),
     path('about', about, name='about'),
     path('meetings/', include('meetings.urls')),
-
+    path('new', include('meetings.urls')),
 ]
